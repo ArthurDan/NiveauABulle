@@ -42,8 +42,8 @@ var app = {
             timestamp: acceleration.timestamp
         };*/
         console.log(acceleration);
-        $("#accelerationX").text(acceleration.x);
-        $("#accelerationY").text(acceleration.y);
+        $("#accelerationX").text((acceleration.x + 10) * 5);
+        $("#accelerationY").text((acceleration.y +10) * 5);
         $("#accelerationZ").text(acceleration.z);
     },
 

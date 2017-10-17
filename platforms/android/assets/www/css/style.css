@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+	background-image: none;
+}
+
+h1{
+	color:white;
+	margin-top: 20px;
+}
+
+.dataPosition{
+	color:greenyellow;
+	margin-left: 20px;
+	margin-top: 20px;
+}

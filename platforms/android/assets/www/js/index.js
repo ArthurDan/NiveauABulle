@@ -42,9 +42,9 @@ var app = {
             timestamp: acceleration.timestamp
         };*/
         console.log(acceleration);
-        $("#accelerationX").text(acceleration.x);
-       // $("#accelerationY").text(this.y);
-        //$("#accelerationZ").text(this.z);
+        $("#accelerationX").text((acceleration.x + 10) * 5);
+        $("#accelerationY").text((acceleration.y +10) * 5);
+        $("#accelerationZ").text(acceleration.z);
     },
 
     onError: function() {
