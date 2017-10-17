@@ -45,6 +45,11 @@ var app = {
         $("#accelerationX").text(acceleration.x);
         $("#accelerationY").text(acceleration.y);
         $("#accelerationZ").text(acceleration.z);
+		
+		var  elmt = document.getElementById("bulleX");
+		elmt.style.left= acceleration.x*2;
+		var  elmt = document.getElementById("bulleY");
+		elmt.style.top= acceleration.y*2;
     },
 
     onError: function() {
