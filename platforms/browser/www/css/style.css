@@ -1,0 +1,93 @@
+body{
+	background-color: black;
+	background-image: none;
+}
+
+h1{
+	color:white;
+	margin-top: 20px;
+}
+
+.dataPosition{
+	color:greenyellow;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.inlineDisplay{
+	display: inline
+}
+
+.blockDisplay{	
+	display: block;
+	margin-bottom: 10px
+}
+
+.axeX{
+	width: 240px;
+	height: 40px;
+	position: relative
+}
+
+.axeY{
+	height: 240px;
+	width: 40px;
+	position: relative
+}
+
+.axeZ{
+	height: 200px;
+	width: 200px;
+	position: relative
+}
+
+.niveauX{
+	margin-left: 20px;
+	margin-top: 20px
+}
+
+.niveauY{
+	position: absolute; 
+	right: 20px; 
+	margin-top: 20px
+}
+
+.niveauZ{
+	position: absolute; 
+	left: 40%; 
+	margin-left:-100px; 
+	margin-top: 40px
+}
+
+.bulleX{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: yellow;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	
+}
+
+.bulleY{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: yellow;
+	position:absolute;
+	
+}
+
+.bulleZ{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: yellow;
+	position:absolute;
+	
+}
+
+

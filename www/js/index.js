@@ -42,14 +42,21 @@ var app = {
             timestamp: acceleration.timestamp
         };*/
         console.log(acceleration);
-        $("#accelerationX").text(acceleration.x);
-        $("#accelerationY").text(acceleration.y);
+        $("#accelerationX").text((acceleration.x + 10) * 5);
+        $("#accelerationY").text((acceleration.y +10) * 5);
         $("#accelerationZ").text(acceleration.z);
+<<<<<<< HEAD
 		
 		var  elmt = document.getElementById("bulleX");
 		elmt.style.left= acceleration.x*2;
 		var  elmt = document.getElementById("bulleY");
 		elmt.style.top= acceleration.y*2;
+=======
+        var  elmt = document.getElementById("bulleX");
+        elmt.style.left= acceleration.x*2,4;
+        var  elmt = document.getElementById("bulleY");
+        elmt.style.top= acceleration.y*2,4
+>>>>>>> origin/master
     },
 
     onError: function() {
