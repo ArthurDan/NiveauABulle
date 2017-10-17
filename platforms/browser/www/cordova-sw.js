@@ -18,18 +18,21 @@ under the License.
 */
 
 // Note, these will be updated automatically at build time
-var CACHE_VERSION = '1508248889249';
+var CACHE_VERSION = '1508250932328';
 var CACHE_LIST = [
     "/config.xml",
     "/cordova-sw.js",
     "/cordova.js",
     "/cordova_plugins.js",
-    "/css/data.css",
     "/css/index.css",
     "/css/style.css",
     "/favicon.ico",
+    "/img/axeX.png",
+    "/img/axeY.png",
+    "/img/axeZ.png",
     "/img/logo.png",
     "/index.html",
+    "/js/data.js",
     "/js/index.js",
     "/js/lib/bootstrap.js",
     "/js/lib/bootstrap.min.js",
@@ -40,7 +43,8 @@ var CACHE_LIST = [
     "/manifest.json",
     "/plugins/cordova-plugin-device-motion/src/browser/AccelerometerProxy.js",
     "/plugins/cordova-plugin-device-motion/www/Acceleration.js",
-    "/plugins/cordova-plugin-device-motion/www/accelerometer.js"
+    "/plugins/cordova-plugin-device-motion/www/accelerometer.js",
+    "/views/index.html"
 ];
 
 this.addEventListener('install', function (event) {
