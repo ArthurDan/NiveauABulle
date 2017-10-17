@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Niveau à bulle",
+  "short_name": "Niveau à bulle",
+  "version": "com.ynov.tp2",
+  "description": "Un simple niveau à bulle qui nique tout. Le sang de tes morts. Coucou ma bite.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}
